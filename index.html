@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventNow - La tua app per eventi perfetti</title>
+    <meta
+      name="description"
+      content="EventNow è la community per chi vive feste ed eventi. Presto l'app completa per organizzare eventi privati: gestisci budget, inviti, location e accedi a servizi professionali al miglior prezzo."
+    />
+    <meta
+      name="keywords"
+      content="EventNow, app eventi, organizzazione feste, gestione eventi, inviti digitali, budget eventi, location eventi, servizi per eventi, community eventi, feste private"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./007.svg" sizes="any" />
+    <link rel="icon" type="image/svg" href="./007.svg" />
+    <link rel="apple-touch-icon" href="./007.svg" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a href="#home" class="logo">
+          <span class="logo-text">EventNow</span>
+        </a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#about">Chi Siamo</a></li>
+          <li><a href="#contact">Contatti</a></li>
+        </ul>
+        <div
+          class="hamburger"
+          id="hamburger"
+          aria-label="Menu"
+          role="button"
+          tabindex="0"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Event Now</h1>
+          <p class="hero-subtitle">
+            La community di chi vive feste ed eventi.<br />
+            Presto anche l'app che renderà tutto più semplice: tu pensi a
+            divertirti, noi al resto.
+          </p>
+          <div class="hero-buttons">
+            <a href="#about" class="cta-button primary">Scopri di Più</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Cos'è EventNow</h2>
+        <p class="section-subtitle">
+          Con EventNow organizzi i tuoi eventi privati in modo semplice, con
+          strumenti intuitivi e servizi professionali al miglior prezzo.
+        </p>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="card-icon">📱</div>
+            <h3>Semplicità</h3>
+            <p>
+              Interfaccia intuitiva e user-friendly per organizzare eventi senza
+              stress
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">💼</div>
+            <h3>Professionalità</h3>
+            <p>
+              Accesso a servizi professionali verificati per eventi di qualità
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">🎯</div>
+            <h3>Gestione Completa</h3>
+            <p>
+              Gestisci budget, inviti, location e servizi tutto in un'unica app
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Features Principali</h2>
+        <div class="features-tabs">
+          <button
+            class="tab-button active"
+            data-tab="current"
+            aria-label="Stato attuale sviluppo"
+          >
+            Stato Attuale
+          </button>
+          <button
+            class="tab-button"
+            data-tab="upcoming"
+            aria-label="Funzioni in sviluppo"
+          >
+            In Sviluppo
+          </button>
+        </div>
+
+        <div
+          class="tab-content active"
+          id="current"
+          role="tabpanel"
+          aria-labelledby="current-tab"
+        >
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">🔧</div>
+              <h3>App in Sviluppo</h3>
+              <p>
+                Stiamo lavorando intensamente per portarti la migliore
+                esperienza di organizzazione eventi
+              </p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+          </div>
+          <div
+            style="
+              text-align: center;
+              margin-top: 2rem;
+              padding: 2rem;
+              background: rgba(87, 24, 124, 0.05);
+              border-radius: 12px;
+            "
+          >
+            <h3 style="color: #57187c; margin-bottom: 1rem">
+              🚧 Funzionalità in Arrivo
+            </h3>
+            <p style="color: #666; font-size: 1.1rem">
+              EventNow è attualmente in fase di sviluppo. Stiamo creando
+              un'esperienza completa e professionale per l'organizzazione dei
+              tuoi eventi. Tutte le funzionalità saranno presto disponibili!
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="tab-content"
+          id="upcoming"
+          role="tabpanel"
+          aria-labelledby="upcoming-tab"
+        >
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">📅</div>
+              <h3>Event Planner</h3>
+              <p>
+                Organizza ogni dettaglio del tuo evento con il nostro planner
+                offline completo
+              </p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">💰</div>
+              <h3>Gestione Budget</h3>
+              <p>
+                Tieni sotto controllo tutte le spese e ottimizza il budget del
+                tuo evento
+              </p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">📍</div>
+              <h3>Location Manager</h3>
+              <p>Trova e confronta location perfette per il tuo evento</p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">✉️</div>
+              <h3>Gestione Inviti</h3>
+              <p>
+                Invia inviti personalizzati e gestisci le conferme in modo
+                semplice
+              </p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🛍️</div>
+              <h3>Marketplace Servizi</h3>
+              <p>
+                Accedi a un marketplace con servizi professionali verificati
+              </p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🎵</div>
+              <h3>DJ & Musicisti</h3>
+              <p>Prenota DJ e musicisti professionali direttamente dall'app</p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">📸</div>
+              <h3>Fotografi</h3>
+              <p>
+                Trova fotografi specializzati in eventi per immortalare i tuoi
+                momenti
+              </p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🍸</div>
+              <h3>Bartender & Catering</h3>
+              <p>Prenota barman professionali e servizi catering di qualità</p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🏢</div>
+              <h3>Affitto Spazi</h3>
+              <p>Affitta sale e spazi in locali per eventi privati</p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">⭐</div>
+              <h3>Sistema di Recensioni</h3>
+              <p>Leggi recensioni verificate e condividi la tua esperienza</p>
+              <span class="status coming">In Sviluppo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="roadmap">
+      <div class="container">
+        <h2 class="section-title">La Nostra Roadmap</h2>
+        <div class="roadmap-timeline">
+          <div class="timeline-item completed">
+            <div class="timeline-dot" aria-label="Completato"></div>
+            <div class="timeline-content">
+              <h3>Fase 1 - Community Social</h3>
+              <p>
+                Creazione della community e primi strumenti social per
+                connettere gli utenti
+              </p>
+              <span class="timeline-date">Q4 2025</span>
+            </div>
+          </div>
+          <div class="timeline-item in-progress">
+            <div class="timeline-dot" aria-label="In corso"></div>
+            <div class="timeline-content">
+              <h3>Fase 2 - Planner Offline</h3>
+              <p>Gestione budget, location e inviti anche senza connessione</p>
+              <span class="timeline-date">Q1-Q2 2026</span>
+            </div>
+          </div>
+          <div class="timeline-item upcoming">
+            <div class="timeline-dot" aria-label="Prossimo"></div>
+            <div class="timeline-content">
+              <h3>Fase 3 - Marketplace Integrato</h3>
+              <p>
+                Servizi in-app: DJ, fotografi, bartender e collaborazioni locali
+              </p>
+              <span class="timeline-date">Q3 2026</span>
+            </div>
+          </div>
+          <div class="timeline-item future">
+            <div class="timeline-dot" aria-label="Futuro"></div>
+            <div class="timeline-content">
+              <h3>Fase 4 - Espansione</h3>
+              <p>
+                Affitto spazi, recensioni, servizi premium e nuove funzionalità
+                AI
+              </p>
+              <span class="timeline-date">Q4 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>EventNow nasce da chi fa festa</h2>
+          <p>
+            Siamo studenti come te. Trasformiamo la voglia di divertirsi in uno
+            strumento utile. Gestisci budget, inviti e location in modo semplice
+            e veloce.
+          </p>
+          <div class="cta-buttons">
+            <button class="cta-button secondary" id="newsletter-cta-btn">
+              Rimani Aggiornato
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <p>Organizziamo il futuro degli eventi</p>
+          </div>
+          <div class="footer-links">
+            <div class="link-group">
+              <h4>Prodotto</h4>
+              <a href="#features">Features</a>
+              <a href="#roadmap">Roadmap</a>
+              <a href="#" class="waiting-list-link">Newsletter</a>
+            </div>
+            <div class="link-group">
+              <h4>Supporto</h4>
+              <a
+                href="mailto:infoeventnow@gmail.com?subject=Richiesta%20di%20supporto&body=Ciao%20EventNow,%0Aho%20bisogno%20di%20aiuto%20su..."
+                >Help Center</a
+              >
+              <a
+                href="mailto:infoeventnow@gmail.com?subject=Contatto%20dal%20sito&body=Ciao%20EventNow,%0Avorrei%20mettermi%20in%20contatto%20per..."
+                >Contatti</a
+              >
+              <a
+                href="mailto:infoeventnow@gmail.com?subject=Domanda%20frequente&body=Ciao%20EventNow,%0Aho%20una%20domanda%20su..."
+                >FAQ</a
+              >
+            </div>
+            <div class="link-group">
+              <h4>Seguici</h4>
+              <a
+                href="https://www.instagram.com/_eventnow?igsh=dTdqN2JlbDNzbXBl"
+                >Instagram</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 EventNow. Tutti i diritti riservati.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Newsletter Popup -->
+    <div class="newsletter-overlay" id="newsletter-overlay">
+      <div class="newsletter-popup">
+        <button class="newsletter-close" id="newsletter-close">&times;</button>
+
+        <div class="newsletter-content" id="newsletter-content">
+          <div class="newsletter-header">
+            <h3>Rimani Aggiornato</h3>
+            <p>
+              Iscriviti alla newsletter per ricevere aggiornamenti esclusivi su
+              EventNow e essere tra i primi a scoprire le novità!
+            </p>
+          </div>
+
+          <form class="newsletter-form" id="newsletter-form">
+            <input
+              type="text"
+              name="website"
+              style="display: none"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            />
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">Nome</label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Cognome</label>
+                <input type="text" id="lastName" name="lastName" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+
+            <div class="checkbox-group">
+              <input type="checkbox" id="privacy" name="privacy" required />
+              <label for="privacy">
+                Acconsento al trattamento dei miei dati personali per l'invio
+                della newsletter di EventNow. I dati saranno trattati in
+                conformità alla
+                <a href="privacy-policy.html">normativa sulla privacy</a>
+                vigente.
+              </label>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submit-btn">
+              Iscriviti alla Newsletter
+            </button>
+          </form>
+        </div>
+
+        <div class="success-message" id="success-message">
+          <h3>Iscrizione Completata!</h3>
+          <p>
+            Grazie per esserti iscritto alla newsletter di EventNow. Riceverai
+            presto aggiornamenti esclusivi sui nostri progressi!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/subscribe.js" defer></script>
+  </body>
+</html>
