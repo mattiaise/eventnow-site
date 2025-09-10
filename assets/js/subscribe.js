@@ -62,3 +62,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const fab = document.getElementById("newsletter-fab");
+    if (fab) {
+        fab.addEventListener("click", () => {
+            openNewsletterPopup();
+        });
+    }
+});
