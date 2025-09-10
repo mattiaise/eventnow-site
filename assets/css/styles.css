@@ -1150,6 +1150,7 @@ img {
 .fab-icon {
   font-size: 1.3rem;
   line-height: 1;
+  color: #fafaf7;
 }
 
 @media (min-width: 481px) {
